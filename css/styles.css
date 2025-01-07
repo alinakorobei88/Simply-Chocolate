@@ -1,0 +1,199 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* ========HEADER======= */
+
+.header-logo-italic {
+    font-style: italic;
+}
+
+.header-logo {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+
+.header-menu-link {
+    color: #111;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+/* ================= */
+/* =======HERO====== */
+
+.hero {
+    background-color:   #11111199;
+}
+
+.heroi-title {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.hero-btn {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.hero-made-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.hero-scroll-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+}
+/* ================= */
+
+/* ===DISCRIPTION=== */
+
+.discription {
+    background-color: #1E1823;
+}
+
+.discription-list {
+}
+
+.discription-item {
+}
+
+.discription-subtitle {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    text-align: left;
+}
+
+.discription-text {
+    color: #FFFFFFB2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+/* ================= */
+
+/* ======TASTE====== */
+
+.taste {
+}
+.taste-title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.taste-title-color {
+    color: #FD9222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.taste-texte {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.taste-list {
+}
+.taste-item {
+}
+.taste-img {
+}
+
+.taste-subtitle {
+font-size: 14px;
+font-weight: 600;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+/* ================= */
+
+/* ======MADE======= */
+
+.made {
+}
+
+.made-title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.made-title-color {
+    color: #FD9222;    
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.made-img {
+}
+.made-text {
+}
+.made-list {
+}
+.made-item {
+}
+
+/* ================= */
