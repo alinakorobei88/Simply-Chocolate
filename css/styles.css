@@ -189,11 +189,184 @@ text-align: left;
 
 .made-img {
 }
+
 .made-text {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
 }
+
 .made-list {
 }
+
 .made-item {
+}
+
+.made-subtext {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+/* ================= */
+
+/* =====PRODUCTS===== */
+
+.products {
+}
+.products-title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.products-title-orange {
+    color: #FD9222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-img {
+}
+
+.products-subtitle {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
+
+.products-text {
+    color: #111111B2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.products-btn {
+    color: #111111;
+    background-color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+/* ================= */
+
+/* =====SELLERS===== */
+
+.sellers {
+}
+
+.sellers-title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.sellers-title-orange {
+    color: #FD9222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-img {
+}
+
+.sellers-text {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+/* ================= */
+
+/* ======TEAM====== */
+
+.team {
+}
+
+.team-title {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.team-title-orange {
+    color: #FD9222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-img {
+}
+
+.team-subtitle {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.team-text {
+    color: #111111B2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.team-btn {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
 }
 
 /* ================= */
