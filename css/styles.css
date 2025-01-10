@@ -2,12 +2,32 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1166px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -25,6 +45,11 @@ a {
   }
 
 /* ========HEADER======= */
+
+.header {
+    padding-top: 28px;
+    padding-bottom: 36px;
+}
 
 .header-logo-italic {
     font-style: italic;
@@ -49,16 +74,24 @@ a {
 /* =======HERO====== */
 
 .hero {
-    background-color:   #11111199;
+    padding-bottom: 80px;
 }
 
-.heroi-title {
+.hero-container {
+    background-color:   #11111199;
+    border-radius: 30px;
+    padding: 380px 40px 40px;
+}
+
+.hero-title {
     color: #FFFFFF;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.12;
     letter-spacing: -0.03em;
     text-align: left;
+    max-width: 484px;
+    margin-bottom: 32px;
 }
 
 .hero-btn {
@@ -89,6 +122,8 @@ a {
 
 .discription {
     background-color: #1E1823;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .discription-list {
@@ -103,6 +138,7 @@ a {
     font-weight: 600;
     line-height: 1.22;
     text-align: left;
+    margin-bottom: 18px;
 }
 
 .discription-text {
@@ -119,14 +155,18 @@ a {
 /* ======TASTE====== */
 
 .taste {
+    padding-top: 120px;
 }
 .taste-title {
     color: #111111;
+    max-width: 412px;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
 }
 
 .taste-title-color {
@@ -145,6 +185,9 @@ a {
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
+    max-width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .taste-list {
@@ -160,6 +203,7 @@ font-weight: 600;
 line-height: 1.29;
 letter-spacing: -0.02em;
 text-align: left;
+margin-top: 36px;
 }
 
 /* ================= */
@@ -167,6 +211,7 @@ text-align: left;
 /* ======MADE======= */
 
 .made {
+    padding-top: 120px;
 }
 
 .made-title {
@@ -176,6 +221,7 @@ text-align: left;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .made-title-color {
@@ -192,9 +238,11 @@ text-align: left;
 
 .made-text {
     color: #111111;
+    max-width: 350px;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
+    margin-bottom: 28px;
 }
 
 .made-list {
@@ -205,6 +253,7 @@ text-align: left;
 
 .made-subtext {
     color: #111111;
+    max-width: 452px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
@@ -217,6 +266,7 @@ text-align: left;
 /* =====PRODUCTS===== */
 
 .products {
+    padding-top: 120px;
 }
 .products-title {
     color: #111111;
@@ -225,6 +275,7 @@ text-align: left;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .products-title-orange {
@@ -274,6 +325,7 @@ text-align: left;
 /* =====SELLERS===== */
 
 .sellers {
+    padding-top: 120px;
 }
 
 .sellers-title {
@@ -283,6 +335,7 @@ text-align: left;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .sellers-title-orange {
@@ -316,6 +369,8 @@ text-align: left;
 /* ======TEAM====== */
 
 .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -325,6 +380,7 @@ text-align: left;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .team-title-orange {
@@ -384,6 +440,9 @@ text-align: left;
     line-height: 1.21;
     letter-spacing: -0.02em;
     text-align: left;
+    margin-left: 32px;
+    padding-top: 50px;
+    max-width: 300px;
 }
 
 .footer-text-orange {

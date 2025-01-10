@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
 </head>
 <body>
     <header class="header">
+        <div class="container">
         <nav class="header-navigation">
             <a class="header-logo" href=""><span class="header-logo-italic">SIMPLY</span> CHOCOLATE <img class="header-logo-img" src="./images/chocolate.svg" alt="chocolate icon" /></a>
             <ul class="header-menu-list">
@@ -38,10 +39,12 @@
                 <a class="header-soc-link" href="" target="_blank"><img src="./images/Twitter.svg" alt="twitter icon" width="24" height="24" ></a>
             </li>
         </ul>
+    </div>
     </header>
     <main>
         <section class="hero">
-            <h1 class="heroi-title">
+            <div class="container hero-container">
+            <h1 class="hero-title">
                 Treat yourself or a loved one to 
                 our finest ingredients for a moment 
                 of pure delight!
@@ -49,8 +52,10 @@
             <button type="button" class="hero-btn">Buy now</button>
             <a href="" class="hero-made-link">How it’s made</a>
             <a href="" class="hero-scroll-link">scroll down</a>
+            </div>
         </section>
         <section class="discription">
+            <div class="container">
             <h2 class="visually-hidden ">Discription</h2>
             <ul class="discription-list">
                 <li class="discription-item">
@@ -66,8 +71,10 @@
                     <p class="discription-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="taste">
+            <div class="container">
             <h2 class="taste-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="taste-title-color">TASTE</span> SENSATION</h2>
             <p class="taste-texte">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
             <ul class="taste-list">
@@ -100,8 +107,10 @@
                     <h3 class="taste-subtitle">COCONUT OIL</h3>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="made">
+            <div class="container">
             <h2 class="made-title">HOW IT’S <span class="made-title-color">MADE?</span></h2>
             <img class="made-img" src="./images/made-img(1).jpg" alt="hot chocolate" width="600" height="400">
             <h3 class="made-text">Try  our chocolates today and discover the perfect balance of flavor</h3>
@@ -122,8 +131,10 @@
                     <p class="made-subtext">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="products">
+            <div class="container">
             <h2 class="products-title">OUR <span class="products-title-orange">PRODUCTS</span></h2>
             <ul class="products-list">
                 <li class="products-item">
@@ -175,8 +186,10 @@
                     <button type="button" class="products-btn">54 UAH</button>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="sellers">
+            <div class="container">
             <h2 class="sellers-title"><span class="sellers-title-orange">TOP</span> SELLERS</h2>
             <ul class="sellers-list">
                 <li class="sellers-item">
@@ -192,8 +205,10 @@
                     <h3 class="sellers-text">DARK CHOCOLATE</h3>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="team">
+            <div class="container">
             <h2 class="team-title"><span class="team-title-orange">CHOCOLATE</span> IS LOVED</h2>
             <ul class="team-list">
                 <li class="team-item">
@@ -213,9 +228,12 @@
                 </li>
             </ul>
             <button type="button" class="team-btn">Leave  a review</button>
+        </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
+        <div class="footer-top">
         <p class="footer-text"><span class="footer-text-orange">Chocolate</span> a delicious cure for a bad day</p>
         <p class="footer-subtext">Social networks</p>
         <ul class="footer-list">
@@ -230,6 +248,8 @@
                 <li class="footer-address-item"><a class="footer-address-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a></li>
             </ul>
         </address>
+    </div>
+    <div class="footer-bottom">
         <nav class="footer-navigation">
             <ul class="footer-navigation-list">
                 <li class="footer-navigation-item">
@@ -242,7 +262,9 @@
                     <a class="footer-navigation-link" href="">Chocolate is loved</a>
                 </li>
             </ul>
-        </nav>      
+        </nav>  
+    </div>  
+</div>  
     </footer>
 </body>
 </html>
