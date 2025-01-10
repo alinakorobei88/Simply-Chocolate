@@ -23,7 +23,7 @@ button {
 }
 
 .container {
-    width: 1166px;
+    width: 1136px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -162,14 +162,18 @@ button {
 
 .discription {
     background-color: #1E1823;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .discription-list {
+    display: flex;
+    gap: 88px;
+    padding: 0 18px;
 }
 
 .discription-item {
+    flex-basis: calc((100% - 176px) / 3 );
 }
 
 .discription-subtitle {
@@ -231,10 +235,18 @@ button {
 }
 
 .taste-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 32px;
 }
 .taste-item {
+    padding: 28px 23px;
+    border-radius: 15px;
+    background-color:  #FD9222;
+    max-width: 260px;
 }
 .taste-img {
+    margin-bottom: 36px;
 }
 
 .taste-subtitle {
@@ -242,8 +254,6 @@ font-size: 14px;
 font-weight: 600;
 line-height: 1.29;
 letter-spacing: -0.02em;
-text-align: left;
-margin-top: 36px;
 }
 
 /* ================= */
@@ -273,7 +283,17 @@ margin-top: 36px;
     text-align: center;
 }
 
+.made-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
 .made-img {
+}
+
+.made-content {
+    padding: 32px;
+    background-color: #FFFFFF;
 }
 
 .made-text {
@@ -289,7 +309,13 @@ margin-top: 36px;
 }
 
 .made-item {
+    margin-bottom: 24px;
 }
+
+.made-item :last-child {
+    margin-bottom: 0;
+}
+
 
 .made-subtext {
     color: #111111;
