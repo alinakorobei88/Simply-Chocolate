@@ -48,11 +48,22 @@ button {
 
 .header {
     padding-top: 28px;
-    padding-bottom: 36px;
+    padding-bottom: 36px; 
+}
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-italic {
     font-style: italic;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -61,6 +72,14 @@ button {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-list {
+    display: flex;
+    margin-right: 90px;
+    gap: 24px;
 }
 
 .header-menu-link {
@@ -70,6 +89,12 @@ button {
     line-height: 1.14;
     letter-spacing: -0.02em;
 }
+
+.header-soc-list {
+    display: flex;
+    gap: 14px;
+}
+
 /* ================= */
 /* =======HERO====== */
 
@@ -80,7 +105,7 @@ button {
 .hero-container {
     background-color:   #11111199;
     border-radius: 30px;
-    padding: 380px 40px 40px;
+    padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -94,12 +119,21 @@ button {
     margin-bottom: 32px;
 }
 
+.hero-buttons {
+    display: flex;
+    align-items: center;
+}
+
 .hero-btn {
     color: #FFFFFF;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.22;
+    padding: 14px 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: #FD9222;
 }
 
 .hero-made-link {
@@ -107,6 +141,11 @@ button {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.22;
+    background-color: transparent;
+    padding: 14px 40px;
+    border-radius: 100px;
+    border: 1px solid #FFFFFF;
+    margin-left: 14px;
 }
 
 .hero-scroll-link {
@@ -115,6 +154,7 @@ button {
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.03em;
+    margin-left: auto;
 }
 /* ================= */
 
