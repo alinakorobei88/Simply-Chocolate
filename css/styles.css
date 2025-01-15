@@ -145,8 +145,15 @@ img {
     line-height: 1.22;
     padding: 14px 40px;
     border-radius: 100px;
-    border: none;
     background-color: #FD9222;
+    border: none;
+    transition: background-color 1000ms ease;
+}
+
+.hero-btn:hover {
+    background-color: #FCF1E0;
+    color: #FD9222;
+
 }
 
 .hero-made-link {
@@ -159,6 +166,13 @@ img {
     border-radius: 100px;
     border: 1px solid #FFFFFF;
     margin-left: 14px;
+    transition: background-color 1000ms ease;
+}
+
+.hero-made-link:hover {
+    background-color: #FAFAFA;
+    border-color: #FD9222;
+    color: #FD9222;
 }
 
 .hero-scroll-link {
