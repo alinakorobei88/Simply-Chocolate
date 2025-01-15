@@ -22,6 +22,9 @@ a {
 button {
     cursor: pointer;
 }
+img {
+    display: block;
+}
 
 .container {
     width: 1166px;
@@ -96,6 +99,11 @@ button {
     gap: 14px;
 }
 
+.header-soc-icon {
+    fill: transparent;
+    stroke: #111111;
+}
+
 /* ================= */
 /* =======HERO====== */
 
@@ -105,6 +113,10 @@ button {
 
 .hero-container {
     background-color:   #11111199;
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 30px;
     padding: 380px 40px 40px 40px;
 }
@@ -202,6 +214,11 @@ button {
 .taste {
     padding-top: 120px;
 }
+
+.container {
+    max-width: 100%;
+}
+
 .taste-title {
     color: #111111;
     max-width: 412px;
@@ -238,16 +255,19 @@ button {
 .taste-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 32px;
+    column-gap: 39px;
+    row-gap: 24px;
+    max-width: calc(270px * 4 + 32px * 3);
 }
 .taste-item {
-    padding: 28px 23px;
+    background-color: #ffffff;
+    border: 1px solid #fd9222;
     border-radius: 15px;
-    background-color:  #FD9222;
-    max-width: 260px;
-}
+    padding: 28px 23px;
+  }
 .taste-img {
     margin-bottom: 36px;
+    max-width: 100%;
 }
 
 .taste-subtitle {
@@ -295,6 +315,7 @@ button {
 .made-content {
     padding: 32px;
     background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .made-text {
@@ -311,6 +332,20 @@ button {
 
 .made-item {
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.made-item::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #4C4C4C;
+    border-radius: 50%;
+    border: 1px solid #ECEDED;
+    display: block;
+
 }
 
 .made-item :last-child {
@@ -327,6 +362,7 @@ button {
     letter-spacing: -0.02em;
     text-align: left;
 }
+
 
 /* ================= */
 
@@ -483,9 +519,13 @@ button {
 }
 
 .team-list {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
 }
 
 .team-item {
+    width: 360px;
 }
 
 .team-img {
