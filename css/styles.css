@@ -346,15 +346,17 @@ img {
 
 .made-item {
     margin-bottom: 24px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    padding-left: 16px;
+    position: relative;
 }
 
 .made-item::before {
     content: '';
     width: 8px;
     height: 8px;
+    position: absolute;
+    left: 0;
+    top: 5px;
     background-color: #4C4C4C;
     border-radius: 50%;
     border: 1px solid #ECEDED;
@@ -488,6 +490,7 @@ img {
 }
 
 .sellers-item {
+   
 }
 
 .sellers-img {
@@ -502,6 +505,13 @@ img {
     padding-top: 28px;
     padding-bottom: 28px;
     text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    border-right: 1px solid #1111111A;
+    border-bottom: 1px solid #1111111A;
+    border-left: 1px solid #1111111A;
+
+
+
 }
 
 /* ================= */
