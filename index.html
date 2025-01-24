@@ -67,14 +67,29 @@
             <h2 class="visually-hidden ">Discription</h2>
             <ul class="discription-list">
                 <li class="discription-item">
+                    <div class="discription-container">
+                        <svg class="discriprion-icon" width="32" heoght="32">
+                            <use href="./images/symbol-defs.svg#icon-chocolate-icon"></use>
+                        </svg>
+                    </div>
                     <h3 class="discription-subtitle">Unsurpassed taste</h3>
                     <p class="discription-text">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
                 </li>
                 <li class="discription-item">
+                    <div class="discription-container">
+                        <svg class="discriprion-icon" width="32" heoght="32">
+                            <use href="./images/symbol-defs.svg#icon--icon"></use>
+                        </svg>
+                    </div>
                     <h3 class="discription-subtitle">Affordable price</h3>
                     <p class="discription-text">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
                 </li>
                 <li class="discription-item">
+                    <div class="discription-container">
+                        <svg class="discriprion-icon" width="32" heoght="32">
+                            <use href="./images/symbol-defs.svg#icon-spoon"></use>
+                        </svg>
+                    </div>
                     <h3 class="discription-subtitle">Own production</h3>
                     <p class="discription-text">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
                 </li>
@@ -205,17 +220,31 @@
             <h2 class="sellers-title"><span class="sellers-title-orange">TOP</span> SELLERS</h2>
             <ul class="sellers-list">
                 <li class="sellers-item">
-                    <img class="sellers-img" src="./images/topsel-1.jpg" alt="chocolate with nuts" width="368" height="464">
-                    <h3 class="sellers-text">CHOCOLATE WITH NUTS</h3>
-                    <div class="sellers-cover-container"><p class="sellers-cover-text">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p></div>
+                    <div class="sellers-cover-wrap">
+                        <img class="sellers-img" src="./images/topsel-1.jpg" alt="chocolate with nuts" width="368" height="464">
+                        <div class="sellers-cover-container">
+                            <p class="sellers-cover-text">Chocolate with nuts is a delectable combination that brings together the smoothness of chocolate and the crunchiness of nuts. Whether it's milk chocolate, dark chocolate, or white chocolate, the addition of nuts adds a whole new dimension of flavor and texture.</p>
+                        </div>
+                        <h3 class="sellers-text">CHOCOLATE WITH NUTS</h3>
+                    </div>  
                 </li>
                 <li class="sellers-item">
+                <div class="sellers-cover-wrap">
                     <img class="sellers-img" src="./images/topsel-2.jpg" alt="chocolate with fruits" width="368" height="464">
+                    <div class="sellers-cover-container">
+                        <p class="sellers-cover-text">Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry of taste.</p>
+                    </div>
+                </div>
                     <h3 class="sellers-text">CHOCOLATE WITH FRUITS</h3>
                 </li>
                 <li class="sellers-item">
-                    <img class="sellers-img" src="./images/topsel-3.jpg" alt="dark chocolate" width="368" height="464">
-                    <h3 class="sellers-text">DARK CHOCOLATE</h3>
+                    <div class="sellers-cover-wrap">
+                        <img class="sellers-img" src="./images/topsel-3.jpg" alt="dark chocolate" width="368" height="464">
+                        <div class="sellers-cover-container">
+                            <p class="sellers-cover-text">Dark chocolate is a rich and indulgent treat that is beloved by many chocolate enthusiasts. It is made from cocoa beans, which are roasted, ground, and then processed to produce chocolate liquor. Dark chocolate contains a higher percentage of cocoa solids compared to milk chocolate.</p>
+                        </div>
+                        <h3 class="sellers-text">DARK CHOCOLATE</h3>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -279,5 +308,47 @@
     </div>  
 </div>  
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <button class="modal-close-btn"><svg class="modal-close-icon" width="14" height="14">
+                <use href="./images/symbol-defs.svg#icon-x-close"></use>
+            </svg></button>
+            <p class="modal-title">LEAVE A REVIEW ABOUT <span class="modal-title-orange">OUR CHOCOLATE</span></p>
+            <form class="modal-form">
+            <div class="modal-field">
+                <label for="user-name" class="modal-label">Name</label>
+                <div class="modal-input-wrap">
+                    <input type="text" name="user-name" class="modal-input" placeholder="user-name" id="user-name">
+                    <svg class="input-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-user"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-email" class="modal-label">Email</label>
+                <div class="modal-input-wrap">
+                    <input type="email" name="user-email" class="modal-input" placeholder="user-email" id="user-email">
+                    <svg class="input-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-phone" class="modal-label">Phone number</label>
+                <div class="modal-input-wrap">
+                    <input type="tel" name="user-phone" class="modal-input" placeholder="user-phone" id="user-phone">
+                    <svg class="input-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-text" class="modal-label">Comment</label>
+                <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Enter text"></textarea>
+            </div>
+                <button class="modal-send-btn">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
