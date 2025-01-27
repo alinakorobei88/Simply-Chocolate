@@ -301,7 +301,7 @@ img {
   }
 
   .taste-item1:hover .taste-cover-container {
-    transform: translateX();
+    transform: translateX(0);
   }
 
   .taste-item2, .taste-item4, .taste-item6 {
@@ -340,14 +340,16 @@ img {
 
 .taste-cover-container {
     position: absolute;
+    transform: translateX(-100%);
+    transition: transform 300ms linear;
+    background-color: #FAFAFA;
     top: 0;
     left: 0;
     padding: 20px 15px;
     max-width: 260px;
     max-height: 270px;
     border-radius: 15px;
-
-    display: block;
+    border: none;
 }
 
 .taste-cover-container-a {
