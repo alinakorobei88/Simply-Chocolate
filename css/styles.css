@@ -304,6 +304,10 @@ img {
     transform: translateX(0);
   }
 
+  .taste-item2:hover .taste-cover-container {
+    transform: translateX(0);
+  }
+
   .taste-item2, .taste-item4, .taste-item6 {
     background-color: #FAFAFA;
     border: 1px solid #fd9222;
@@ -349,7 +353,7 @@ img {
     max-width: 260px;
     max-height: 270px;
     border-radius: 15px;
-    border: none;
+
 }
 
 .taste-cover-container-a {
