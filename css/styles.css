@@ -327,12 +327,22 @@ img {
     max-width: 100%;
 }
 
-.taste-subtitle {
+.taste-subtitle1, .taste-subtitle3, .taste-subtitle5, .taste-subtitle7 {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.29;
     letter-spacing: -0.02em;
     margin-top: 36px;
+    color: #FAFAFA;
+}
+
+.taste-subtitle2, .taste-subtitle4, .taste-subtitle6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    margin-top: 36px;
+    color: #111111;
 }
 
 .taste-cover-wrap {
@@ -383,6 +393,23 @@ img {
 
 .taste-cover-chocolate {
     max-width: 81px;
+    height: 24px;
+    padding: 6px 16px;
+    border-radius: 35px;
+    background-color: #FD9222;
+    color: #FFFFFF;
+    margin-left: 0;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taste-cover-milk {
+    max-width: 54px;
     height: 24px;
     padding: 6px 16px;
     border-radius: 35px;
