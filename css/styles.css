@@ -1024,6 +1024,10 @@ letter-spacing: -0.02em;
     border-radius: 6px;
     border: 1px solid #11111124;
     margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FAFAFA;
 }
 
 .modal-send-btn {
