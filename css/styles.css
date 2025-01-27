@@ -316,6 +316,18 @@ img {
     transform: translateX(0);
   }
 
+  .taste-item5:hover .taste-cover-container {
+    transform: translateX(0);
+  }
+
+  .taste-item6:hover .taste-cover-container {
+    transform: translateX(0);
+  }
+
+  .taste-item7:hover .taste-cover-container {
+    transform: translateX(0);
+  }
+
   .taste-item2, .taste-item4, .taste-item6 {
     background-color: #FAFAFA;
     border: 1px solid #fd9222;
@@ -369,7 +381,7 @@ img {
     left: 0;
     padding: 20px 15px;
     max-width: 260px;
-    max-height: 270px;
+    max-height: 100%;
     border-radius: 15px;
 
 }
@@ -378,6 +390,12 @@ img {
     max-height: 54px;
     margin-top: 0;
 }
+
+.taste-cover-container-a-a {
+    max-height: 76px;
+    margin-top: 0;
+}
+
 .taste-cover-container-b {
     margin-top: 20px;
 }
