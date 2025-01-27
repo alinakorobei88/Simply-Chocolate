@@ -212,6 +212,7 @@ img {
     justify-content: center;
     top: 0;
     left: 0;
+    margin-bottom: 22px;
     display: flex;
     justify-content: center;
 }
@@ -292,12 +293,31 @@ img {
     row-gap: 24px;
     max-width: calc(270px * 4 + 32px * 3);
 }
-.taste-item {
-    background-color: #ffffff;
+.taste-item1, .taste-item5 {
+    background-color: #fd9222;
+    border: none;
+    border-radius: 15px;
+    padding: 28px 23px;
+  }
+
+  .taste-item1:hover .taste-cover-container {
+    transform: translateX();
+  }
+
+  .taste-item2, .taste-item4, .taste-item6 {
+    background-color: #FAFAFA;
     border: 1px solid #fd9222;
     border-radius: 15px;
     padding: 28px 23px;
   }
+
+  .taste-item3, .taste-item7 {
+    background-color: #1E1823;
+    border: none;
+    border-radius: 15px;
+    padding: 28px 23px;
+  }
+
 .taste-img {
     margin-bottom: 36px;
     max-width: 100%;
@@ -308,6 +328,95 @@ img {
     font-weight: 600;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    margin-top: 36px;
+}
+
+.taste-cover-wrap {
+    position: relative;
+    max-width: 260px;
+    max-height: 270px;
+    overflow: hidden;
+}
+
+.taste-cover-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 15px;
+    max-width: 260px;
+    max-height: 270px;
+    border-radius: 15px;
+
+    display: block;
+}
+
+.taste-cover-container-a {
+    max-height: 54px;
+    margin-top: 0;
+}
+.taste-cover-container-b {
+    margin-top: 20px;
+}
+
+.taste-cover-title {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #111111;
+}
+
+.taste-cover-btn {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.taste-cover-chocolate {
+    max-width: 81px;
+    height: 24px;
+    padding: 6px 16px;
+    border-radius: 35px;
+    background-color: #FD9222;
+    color: #FFFFFF;
+    margin-left: 0;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taste-cover-benefits {
+    max-width: 93px;
+    height: 24px;
+    padding: 6px 16px;
+    border-radius: 35px;
+    border: 1px solid #FD9222;
+    color: #111111;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taste-cover-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111111;
+    
+
 }
 
 /* ================= */
