@@ -1003,6 +1003,29 @@ letter-spacing: -0.02em;
     resize: none;
 }
 
+.check-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    color: #40404099;
+}
+
+.check-text a {
+    text-decoration-line: underline;
+    color: #FD9222;
+}
+
+.check-text span {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #11111124;
+    margin-right: 12px;
+}
+
 .modal-send-btn {
     width: 117px;
     height: 45px;
@@ -1013,5 +1036,9 @@ letter-spacing: -0.02em;
     border-radius: 100px;
     opacity: 0px;
     border: none;
+}
 
+.form-check:checked + .check-text span {
+    background-color: #FD9222;
+    border: none;
 }
