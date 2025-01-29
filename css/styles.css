@@ -879,6 +879,9 @@ color: #FAFAFA;
 
 .footer-bottom {
     margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-navigation {
@@ -896,6 +899,43 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: -0.02em;
+}
+
+.footer-form {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-input {
+    width: 313px;
+    height: 52px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 30px;
+    border: 1.5px solid #FFFFFF26;
+    background-color: transparent;
+    outline: transparent;
+    color: #FAFAFA;
+}
+
+.footer-input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+    color: #FFFFFF4D;
+}
+
+.footer-btn {
+    width: 137px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: #FD9222;
+    border: none;
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.22;   
 }
 
 /* ================= */
