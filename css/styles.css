@@ -748,7 +748,7 @@ color: #FAFAFA;
     line-height: 1.17;
     letter-spacing: -0.03em;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .team-title-orange {
@@ -767,10 +767,21 @@ color: #FAFAFA;
 }
 
 .team-item {
-    width: 360px;
+    position: relative;
+    width: calc((100% - 56px) / 3);
+    padding: 56px 24px 24px 24px;
+    border-radius: 15px;
+    border: 1px solid #1111111A;
+    box-shadow: 0px 9.05px 100px 0px #11111108;
+
+
 }
 
 .team-img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .team-subtitle {
