@@ -31,7 +31,6 @@ img {
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -289,81 +288,27 @@ img {
 .taste-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 39px;
+    column-gap: 32px;
     row-gap: 24px;
-    max-width: calc(270px * 4 + 32px * 3);
 }
-.taste-item1, .taste-item5 {
-    background-color: #fd9222;
-    border: none;
-    border-radius: 15px;
-    padding: 28px 23px;
-  }
-
-  .taste-item1:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item2:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item3:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item4:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item5:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item6:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item7:hover .taste-cover-container {
-    transform: translateX(0);
-  }
-
-  .taste-item2, .taste-item4, .taste-item6 {
+.taste-item {
     background-color: #FAFAFA;
-    border: 1px solid #fd9222;
+    border: 1px solid #FD9222;
     border-radius: 15px;
     padding: 28px 23px;
+    width: calc((100% - 96px) / 4);
   }
 
-  .taste-item3, .taste-item7 {
-    background-color: #1E1823;
-    border: none;
-    border-radius: 15px;
-    padding: 28px 23px;
+  .taste-item:hover .taste-cover-container {
+    transform: translateX(0);
   }
+
 
 .taste-img {
     margin-bottom: 36px;
     max-width: 100%;
 }
 
-.taste-subtitle1, .taste-subtitle3, .taste-subtitle5, .taste-subtitle7 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    margin-top: 36px;
-    color: #FAFAFA;
-}
-
-.taste-subtitle2, .taste-subtitle4, .taste-subtitle6 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    margin-top: 36px;
-    color: #111111;
-}
 
 .taste-cover-wrap {
     position: relative;
@@ -764,6 +709,7 @@ color: #FAFAFA;
     display: flex;
     gap: 28px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .team-item {
@@ -802,10 +748,9 @@ color: #FAFAFA;
 }
 
 .team-btn {
-    margin-top: 50px;
     width: 222px;
     height: 50px;
-    padding: 14px 40px 14px 40px;
+    padding: 14px 40px;
     border-radius: 100px;
     border: 1px solid #FD9222;
     background-color: #FAFAFA;
@@ -813,6 +758,8 @@ color: #FAFAFA;
     font-weight: 600;
     line-height: 1.22;
     color: #111111;
+    display: block;
+    margin: 0 auto;
 }
 
 /* ================= */
