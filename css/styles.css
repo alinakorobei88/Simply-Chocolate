@@ -802,10 +802,17 @@ color: #FAFAFA;
 }
 
 .team-btn {
-    color: #111111;
+    margin-top: 50px;
+    width: 222px;
+    height: 50px;
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    border: 1px solid #FD9222;
+    background-color: #FAFAFA;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.22;
+    color: #111111;
 }
 
 /* ================= */
