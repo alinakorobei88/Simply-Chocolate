@@ -302,6 +302,13 @@ img {
 
   .taste-cover-wrap:nth-child(4n + 1) .taste-item {
     background-color: #FD9222;
+    color: #FAFAFA;
+}
+
+.taste-cover-wrap:nth-child(4n + 3) .taste-item {
+    background-color: #111;
+    border: none;
+    color: #FAFAFA;
 }
 
   .taste-item:hover .taste-cover-container {
@@ -312,6 +319,14 @@ img {
 .taste-img {
     margin-bottom: 36px;
     max-width: 100%;
+}
+
+.taste-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
 
 
