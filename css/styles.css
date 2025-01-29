@@ -93,6 +93,11 @@ img {
     letter-spacing: -0.02em;
 }
 
+.header-menu-link:hover {
+    color: #FD9222;
+    transition-duration: 300ms;
+}
+
 .header-soc-list {
     display: flex;
     gap: 14px;
@@ -101,6 +106,11 @@ img {
 .header-soc-icon {
     fill: transparent;
     stroke: #111111;
+}
+
+.header-soc-icon:hover {
+    stroke: #FD9222;
+    transition-duration: 300ms;
 }
 
 /* ================= */
@@ -200,6 +210,18 @@ img {
 
 .discription-item {
     flex-basis: calc((100% - 176px) / 3 );
+    position: relative;
+}
+
+.discription-item:not(:last-child)::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 124px; 
+    background-color: #FFFFFF80;
+    right: -44px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .discription-container {
@@ -835,13 +857,17 @@ color: #FAFAFA;
     gap: 14px;
 }
 .footer-item {
-
 }
 .footer-link {
 }
 
 .footer-soc-icon {
     stroke: #FAFAFA;
+}
+
+.footer-soc-icon:hover {
+    stroke: #FD9222;
+    transition-duration: 300ms;
 }
 
 .footer-address {
@@ -921,6 +947,13 @@ letter-spacing: -0.02em;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.22;   
+}
+
+.footer-btn:hover {
+    background-color: #FCF1E0;
+    color: #FD9222;
+    transition-duration: 300ms;
+
 }
 
 /* ================= */
