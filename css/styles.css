@@ -267,7 +267,8 @@ img {
 /* ======TASTE====== */
 
 .taste {
-    padding-top: 120px;
+    /*padding-top: 120px;*/
+    padding-top: 80px;
 }
 
 .container {
@@ -277,9 +278,11 @@ img {
 .taste-title {
     color: #111111;
     max-width: 412px;
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.17;
+    /*line-height: 1.17;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-align: center;
     margin: 0 auto;
@@ -288,9 +291,11 @@ img {
 
 .taste-title-color {
     color: #FD9222;
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.17;
+    /*line-height: 1.17;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-align: center;
 }
@@ -319,9 +324,12 @@ img {
     border: 1px solid #FD9222;
     border-radius: 15px;
     padding: 28px 23px;
-    /*flex-basis: calc((100% - 96px) / 4);
-    height: 212px;*/
+    /*flex-basis: calc((100% - 96px) / 4);*/
+    /*height: 212px;*/
+    height: 270px;
     width: 100%;
+    box-sizing: border-box;
+    text-align: center;
   }
 
   .taste-cover-wrap:nth-child(4n + 1) .taste-item {
@@ -343,6 +351,7 @@ img {
 .taste-img {
     margin-bottom: 36px;
     max-width: 100%;
+    display: inline-block;
 }
 
 .taste-subtitle {
@@ -358,7 +367,7 @@ img {
     position: relative;
     /* max-width: 260px;*/
     width: 100%;
-    max-height: 270px;
+    max-height: 100%;
     overflow: hidden;
 }
 
@@ -370,13 +379,15 @@ img {
     top: 0;
     left: 0;
     padding: 20px 15px;
-    max-width: 260px;
-    max-height: 100%;
+    width: 100%;
+    /*max-width: 260px;*/
+    height: 270px;
     border-radius: 15px;
 
 }
 
 .taste-cover-container-a {
+    width: 100%;
     max-height: 54px;
     margin-top: 0;
 }
@@ -464,8 +475,7 @@ img {
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #111111;
-    
-
+    text-align: left;
 }
 
 /* ================= */
@@ -956,7 +966,6 @@ letter-spacing: -0.02em;
     background-color: #FCF1E0;
     color: #FD9222;
     transition-duration: 300ms;
-
 }
 
 /* ================= */
@@ -1144,4 +1153,73 @@ letter-spacing: -0.02em;
 .form-check:checked + .check-text span {
     background-color: #FD9222;
     border: none;
+}
+
+
+@media  screen and (min-width: 768px) {
+    .container {
+        width: 734px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .taste {
+        padding-top: 100px;
+    }
+
+    .taste-title {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 28px;
+    }
+
+    .taste-list {
+
+        gap: 32px;
+    }
+
+    .taste-item {
+        width: 100%;
+    }
+
+    .taste-cover-wrap {
+        display: flex;
+        width: 336px;
+    }
+
+
+
+}
+
+
+@media  screen and (min-width: 1166px) {
+    .container {
+        width: 1136px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .taste {
+        padding-top: 120px;
+    }
+
+    .taste-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 24px;
+    }
+
+    .taste-item {
+        max-width: 260px;
+        height: 212px; 
+        box-sizing: content-box;
+    }
+
+    .taste-cover-wrap {
+        max-width: 260px;
+    }
+
+
+
 }
