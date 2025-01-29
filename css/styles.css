@@ -296,8 +296,13 @@ img {
     border: 1px solid #FD9222;
     border-radius: 15px;
     padding: 28px 23px;
-    width: calc((100% - 96px) / 4);
+    flex-basis: calc((100% - 96px) / 4);
+    height: 212px;
   }
+
+  .taste-cover-wrap:nth-child(4n + 1) .taste-item {
+    background-color: #FD9222;
+}
 
   .taste-item:hover .taste-cover-container {
     transform: translateX(0);
