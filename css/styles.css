@@ -225,7 +225,7 @@ img {
 }
 
 .hero-scroll-icon {
-    fill: transparent;
+    fill: #FD9222;
     stroke: #FD9222;
 }
 
@@ -1234,6 +1234,42 @@ letter-spacing: -0.02em;
         padding-left: 15px;
     }
 
+    .hero {
+        padding-bottom: 40px;
+    }
+
+    .hero-container {
+        padding: 670px 40px 40px 40px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 1.12;
+    }
+
+    .hero-buttons {
+        flex-wrap: nowrap;
+    }
+
+    .hero-btn {
+        padding: 14px 40px;
+    }
+
+    .hero-scroll-link {
+        margin-top: 0;
+        margin-left: 265px;
+    }
+
+    .hero-scroll-btn {
+        width: 38px;
+        height: 38px;
+        left: auto; /* сбрасывает значение left */
+        right: 0;
+        transform: translateY(-15%);
+    }
+
+    /*=========================*/
+
     .taste {
         padding-top: 100px;
     }
@@ -1384,6 +1420,29 @@ letter-spacing: -0.02em;
         width: 1166px;
         padding-right: 15px;
         padding-left: 15px;
+    }
+
+    .hero-container {
+        padding: 380px 40px 40px 40px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 1.12;
+    }
+
+    .hero-btn {
+        padding: 14px 40px;
+    }
+
+    .hero-scroll-link {
+        margin-left: 685px;
+    }
+
+    .hero-scroll-btn {
+        left: auto; /* сбрасывает значение left */
+        right: 0;
+        transform: translateY(-13%);
     }
 
     .taste {
