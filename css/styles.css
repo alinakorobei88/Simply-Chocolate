@@ -129,14 +129,17 @@ img {
     background-position: center;
     background-size: cover;
     border-radius: 30px;
-    padding: 380px 40px 40px 40px;
+    /*padding: 380px 40px 40px 40px;*/
+    padding: 395px 20px 20px 20px;
 }
 
 .hero-title {
     color: #FFFFFF;
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1.12;
+    /*line-height: 1.12;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-align: left;
     max-width: 484px;
@@ -145,7 +148,9 @@ img {
 
 .hero-buttons {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    position: relative;
 }
 
 .hero-btn {
@@ -154,7 +159,8 @@ img {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.22;
-    padding: 14px 40px;
+    /*padding: 14px 40px;*/
+    padding: 12px 28px;
     border-radius: 100px;
     background-color: #FD9222;
     border: none;
@@ -192,8 +198,42 @@ img {
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.03em;
-    margin-left: auto;
+    /*margin-left: auto;*/
+    margin-top: 32px;
+    
 }
+
+.hero-scroll-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 78px;
+    transform: translateY(25%);
+    transition: background-color 1000ms ease;
+
+}
+
+.hero-scroll-btn:hover {
+    background-color: #FD9222;
+}
+
+.hero-scroll-icon {
+    fill: transparent;
+    stroke: #FD9222;
+}
+
+.hero-scroll-icon:hover {
+    stroke: #FAFAFA;
+}
+
+
 /* ================= */
 
 /* ===DISCRIPTION=== */
@@ -241,9 +281,6 @@ img {
 }
 
 .discription-icon {
-
-
-
 }
 
 .discription-subtitle {
