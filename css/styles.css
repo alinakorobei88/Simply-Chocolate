@@ -485,30 +485,36 @@ img {
 /* ======MADE======= */
 
 .made {
-    padding-top: 120px;
+    /*padding-top: 120px;*/
+    padding-top: 80px;
 }
 
 .made-title {
     color: #111111;
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.17;
+    /*line-height: 1.17;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-align: center;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
+    margin-bottom: 32px;
 }
 
 .made-title-color {
     color: #FD9222;    
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.17;
+    /*line-height: 1.17;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-align: center;
 }
 
 .made-wrapper {
-    display: flex;
+    display: flex;flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -516,7 +522,8 @@ img {
 }
 
 .made-content {
-    padding: 32px;
+    /*padding: 32px;*/
+    padding: 20px 14px;
     background-color: #FFFFFF;
     border-radius: 15px;
 }
@@ -527,14 +534,16 @@ img {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
-    margin-bottom: 28px;
+    /*margin-bottom: 28px;*/
+    margin-bottom: 20px;
 }
 
 .made-list {
 }
 
 .made-item {
-    margin-bottom: 24px;
+    /*margin-bottom: 24px;*/
+    margin-bottom: 18px;
     padding-left: 16px;
     position: relative;
 }
@@ -1286,9 +1295,45 @@ letter-spacing: -0.02em;
     .team-item {
         padding: 56px 16px 24px 16px;
         max-width: 312px;
-       
+    }
+
+    /*=======================*/
+
+    .made > .container {
+        width: 644px;
     }
     
+    .made {
+        padding-top: 100px;
+    }
+
+    .made-title {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 50px;
+    }
+
+    .made-title-color {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+
+    .made-wrapper {
+        justify-content: center;
+    }
+
+    .made-img {
+        width: 100%;
+    }
+
+    .made-content {
+        padding: 32px;
+       width: 100%;
+    }
+
+    .made-text {
+        margin-bottom: 28px;
+    }
 
 
 
@@ -1377,6 +1422,27 @@ letter-spacing: -0.02em;
         width: calc((100% - 56px) / 3);
         padding: 56px 24px 24px 24px;
     }
+
+    /*========================*/
+
+    .made > .container {
+        width: 1166px;
+    }
+
+    .made {
+        padding-top: 120px;
+    }
+
+    .made-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    
+
+
+
+
 
 
 
