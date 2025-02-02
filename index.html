@@ -106,7 +106,10 @@
             <ul class="taste-list">
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-1-min.png" alt="MILK CHOCOLATE" width="214" height="160"/>
+                        <img class="taste-img" 
+                        srcset="./images/img-1-min.png 1x, 
+                                ./images/img-1-min-2x.png 2x"
+                        src="./images/img-1-min.png" alt="MILK CHOCOLATE" width="214" height="160"/>
                         <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -123,7 +126,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-2-min.png" alt="MILK" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-2-min.png 1x, ./images/img-2-min-2x.png 2x" src="./images/img-2-min.png" alt="MILK" width="214" height="160">
                         <h3 class="taste-subtitle">MILK</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -140,7 +143,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-3-min.png" alt="NUTS" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-3-min.png 1x, ./images/img-3-min-2x.png 2x" src="./images/img-3-min.png" alt="NUTS" width="214" height="160">
                         <h3 class="taste-subtitle">NUTS</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -157,7 +160,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-4-min.png" alt="SEMI - SWEET CHOCOLATE" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-4-min.png 1x, ./images/img-4-min-2x.png 2x" src="./images/img-4-min.png" alt="SEMI - SWEET CHOCOLATE" width="214" height="160">
                         <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a-a">
@@ -174,7 +177,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-5-min.png" alt="CACAO" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-5-min.png 1x, ./images/img-5-min-2x.png 2x" src="./images/img-5-min.png" alt="CACAO" width="214" height="160">
                         <h3 class="taste-subtitle">CACAO</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -191,7 +194,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-6-min.png" alt="RASPBERRY" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-6-min.png 1x, ./images/img-6-min-2x.png 2x" src="./images/img-6-min.png" alt="RASPBERRY" width="214" height="160">
                         <h3 class="taste-subtitle">RASPBERRY</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -208,7 +211,7 @@
                 </div>
                 <div class="taste-cover-wrap">
                     <li class="taste-item">
-                        <img class="taste-img" src="./images/img-7-min.png" alt="COCONUT OIL" width="214" height="160">
+                        <img class="taste-img" srcset="./images/img-7-min.png 1x, ./images/img-7-min-2x.png 2x" src="./images/img-7-min.png" alt="COCONUT OIL" width="214" height="160">
                         <h3 class="taste-subtitle">COCONUT OIL</h3>
                         <div class="taste-cover-container">
                             <div class="taste-cover-container-a">
@@ -230,7 +233,12 @@
             <div class="container">
             <h2 class="made-title">HOW IT’S <span class="made-title-color">MADE?</span></h2>
             <div class="made-wrapper">
-            <img class="made-img" src="./images/made-img(1).jpg" alt="hot chocolate" width="600" height="400">
+                <picture>
+                    <source media="(min-width: 1166px)" srcset="./images/made-img(1).jpg 1x, ./images/made-img(1)-2x.jpg 2x"/>
+                    <source media="(min-width: 768px) and (max-width: 1165px)" srcset="./images/made-img(1)-tab.jpg 1x, ./images/made-img(1)-tab-2x.jpg 2x"/>
+                    <source media="(max-width: 767px)" srcset="./images/made-img(1)-mob.jpg 1x, ./images/made-img(1)-mob-2x.jpg 2x"/>
+                    <img class="made-img" src="./images/made-img(1).jpg" alt="hot chocolate" width="614">
+                </picture>
             <div class="made-content">
             <h3 class="made-text">Try  our chocolates today and discover the perfect balance of flavor</h3>
             <ul class="made-list">
