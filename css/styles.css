@@ -124,13 +124,21 @@ img {
 
 .hero-container {
     background-color:   #11111199;
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund.jpg);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 30px;
     /*padding: 380px 40px 40px 40px;*/
     padding: 395px 20px 20px 20px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi), 
+(min-resolution: 2dppx) {
+    .hero-container {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund-mob-2x.jpg);
+    } 
 }
 
 .hero-title {
@@ -222,17 +230,8 @@ img {
 
 .hero-scroll-btn:hover {
     background-color: #FD9222;
+    fill: #FAFAFA;
 }
-
-.hero-scroll-icon {
-    fill: #FD9222;
-    stroke: #FD9222;
-}
-
-.hero-scroll-icon:hover {
-    stroke: #FAFAFA;
-}
-
 
 /* ================= */
 
@@ -1240,6 +1239,7 @@ letter-spacing: -0.02em;
 
     .hero-container {
         padding: 670px 40px 40px 40px;
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund-tab.jpg);
     }
 
     .hero-title {
@@ -1424,6 +1424,7 @@ letter-spacing: -0.02em;
 
     .hero-container {
         padding: 380px 40px 40px 40px;
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),url(../images/hero-backgraund.jpg);
     }
 
     .hero-title {
