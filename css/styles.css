@@ -1272,21 +1272,19 @@ letter-spacing: -0.02em;
         flex-wrap: nowrap;
     }
 
-    .hero-btn {
-        padding: 14px 40px;
+    .right-hero-btn {
+        
     }
 
-    .hero-scroll-link {
-        margin-top: 0;
-        margin-left: 265px;
+    .left-hero-btn {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
     }
 
     .hero-scroll-btn {
         width: 38px;
         height: 38px;
-        left: auto; /* сбрасывает значение left */
-        right: 0;
-        transform: translateY(-15%);
     }
 
     /*==========================*/
@@ -1481,13 +1479,9 @@ letter-spacing: -0.02em;
     }
 
     .hero-scroll-link {
-        margin-left: 685px;
     }
 
     .hero-scroll-btn {
-        left: auto; /* сбрасывает значение left */
-        right: 0;
-        transform: translateY(-13%);
     }
 
     /*================================*/
