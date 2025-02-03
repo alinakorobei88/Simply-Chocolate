@@ -41,5 +41,11 @@
 <symbol id="icon-scroll-down" viewBox="0 0 32 32">
 <path d="M16.946 17.866c-0.242 0.244-0.577 0.395-0.947 0.395s-0.705-0.151-0.947-0.395l-0-0-6.106-6.12c-0.242-0.244-0.577-0.394-0.947-0.394-0.737 0-1.334 0.597-1.334 1.334 0 0.367 0.148 0.699 0.387 0.94l6.12 6.12c0.724 0.723 1.723 1.17 2.827 1.17s2.103-0.447 2.827-1.17l6.12-6.12c0.239-0.241 0.387-0.573 0.387-0.94 0-0.737-0.597-1.334-1.334-1.334-0.37 0-0.705 0.151-0.947 0.394l-0 0-6.106 6.12z"></path>
 </symbol>
+<symbol id="icon-header-burger" viewBox="0 0 48 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M3 16h42M3 2h42M3 30h42"></path>
+</symbol>
+<symbol id="icon-mob-menu-close" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M29.333 2.667l-26.665 26.665M2.667 2.667l26.665 26.665"></path>
+</symbol>
 </defs>
 </svg>

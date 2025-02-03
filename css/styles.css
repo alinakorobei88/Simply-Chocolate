@@ -82,7 +82,8 @@ img {
 }
 
 .header-menu-list {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     margin-right: 90px;
     gap: 24px;
 }
@@ -101,7 +102,8 @@ img {
 }
 
 .header-soc-list {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     gap: 14px;
 }
 
@@ -113,6 +115,69 @@ img {
 .header-soc-icon:hover {
     stroke: #FD9222;
     transition-duration: 300ms;
+}
+
+.header-burger-menu {
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.header-burgegr-icon {
+    fill: transparent;
+    stroke: #111111;
+}
+
+/*======================*/
+
+.mob-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1E1823;
+    padding: 20px;
+}
+
+.mob-menu-close {
+    fill: transparent;
+    stroke: #FAFAFA;
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 88px;
+}
+
+.mob-menu-icon {
+}
+.mob-menu-list {
+    padding-left: 28px;
+}
+
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+.mob-menu-link {
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+.mob-soc-list {
+    display: flex;
+    gap: 12px;
+}
+.mob-soc-item {
+}
+.mob-soc-link {
+}
+.mob-soc-icon {
+    fill: transparent;
+    stroke: #FAFAFA;
 }
 
 /* ================= */
