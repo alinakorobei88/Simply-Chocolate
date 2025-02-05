@@ -1557,6 +1557,63 @@ letter-spacing: -0.02em;
         margin-bottom: 28px;
     }
 
+    .modal {
+        width: 517px;
+        min-height: 794px;
+    }
+
+    .modal-close-btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .modal-title {
+        font-size: 24px;
+        line-height: 1.17;
+        width: 298px;
+        height: 56px;
+    }
+
+    .title-1 {
+        display: inline-block;
+    }
+
+    .modal-field {
+        margin-bottom: 18px;
+    }
+
+    .modal-input {
+        height: 68px;
+    }
+
+    .modal-input::placeholder {
+        font-size: 18px;
+    }
+
+    .modal-label {
+        margin-bottom: 8px;
+    }
+
+    .modal-textarea {
+        height: 137px;
+        font-size: 18px;
+    }
+
+    .check-text {
+        font-size: 14px;
+        line-height: 1.22;
+        display: flex;
+        flex-wrap: nowrap;  
+    }
+
+    .check-text a {
+        margin-left: 4px;  
+    }
+
+    .modal-send-btn {
+        margin-top: 40px;  
+    }
+
 
 
 
