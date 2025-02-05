@@ -73,9 +73,11 @@ img {
 
 .header-logo {
     color: #111;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.11;
+    /*line-height: 1.11;*/
+    line-height: 1.29;
     letter-spacing: -0.03em;
     display: flex;
     align-items: center;
@@ -143,6 +145,7 @@ img {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    overflow: auto;
 }
 
 .mob-menu-close {
@@ -1143,8 +1146,10 @@ letter-spacing: -0.02em;
 }
 
 .modal {
-    width: 517px;
-    min-height: 794px;
+    /*width: 517px;
+    min-height: 794px;*/
+    width: 311px;
+    height: 622px;
     background: #FAFAFA;
     border-radius: 15px;
     position: absolute;
@@ -1155,8 +1160,10 @@ letter-spacing: -0.02em;
 }
 
 .modal-close-btn {
-    width: 28px;
-    height: 28px;
+    /*width: 28px;
+    height: 28px;*/
+    width: 24px;
+    height: 24px;
     border: none;
     background-color: transparent;
     position: absolute;
@@ -1170,15 +1177,23 @@ letter-spacing: -0.02em;
 }
 
 .modal-title {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.17;
+    /*line-height: 1.17;*/
+    line-height: 1.2;
     letter-spacing: -0.03em;
-    width: 298px;
-    height: 56px;
+    /*width: 298px;
+    height: 56px;*/
+    width: 255px;
+    height: 48px; 
     top: 40px;
     left: 40px;
     margin-bottom: 40px;
+}
+
+.title-1, .title-2 {
+    display: block;
 }
 
 .modal-title-orange {
@@ -1186,13 +1201,15 @@ letter-spacing: -0.02em;
 }
 
 .modal-field {
-    margin-bottom: 18px;
+    /*margin-bottom: 18px;*/
+    margin-bottom: 14px;
 }
 
 .modal-input {
     box-sizing: border-box;
     width: 100%;
-    height: 68px;
+    /*height: 68px;*/
+    height: 45px;
     border-radius: 15px;
     border: 1.5px solid #1111110D;
     outline: transparent;
@@ -1213,6 +1230,7 @@ letter-spacing: -0.02em;
     top: 50%;
     transform: translateY(-50%);
     transition-duration: 300ms;
+    width: 18px;height: 18px;
 }
 
 .modal-input:hover {
@@ -1232,7 +1250,8 @@ letter-spacing: -0.02em;
 }
 
 .modal-input::placeholder {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.22;
     letter-spacing: -0.02em;
@@ -1241,7 +1260,8 @@ letter-spacing: -0.02em;
 
 .modal-label {
     display: block;
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
+    margin-bottom: 4px;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -1253,31 +1273,37 @@ letter-spacing: -0.02em;
 .modal-textarea {
     box-sizing: border-box;
     width: 100%;
-    height: 137px;
+    /*height: 137px;*/
+    height: 91px;
     border-radius: 15px;
     border: 1.5px solid #1111110D;
     outline: transparent;
     box-shadow: 0px 5.44px 5.44px 0px #00000008;
     transition-duration: 300ms;
     color: #4040404D;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 14px;
     padding: 22px 24px;
     resize: none;
 }
 
 .check-text {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.22;
+    /*line-height: 1.22;*/
+    line-height: 1.33;
     letter-spacing: -0.02em;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;  /* mob-version*/
+    align-items: center; 
     color: #40404099;
 }
 
 .check-text a {
     text-decoration-line: underline;
     color: #FD9222;
+    margin-left: 32px;  /*mob-version*/
 }
 
 .check-text span {
@@ -1302,6 +1328,7 @@ letter-spacing: -0.02em;
     border-radius: 100px;
     opacity: 0px;
     border: none;
+    margin-top: 32px;  /*mob-version*/
 }
 
 .form-check:checked + .check-text span {
@@ -1316,6 +1343,23 @@ letter-spacing: -0.02em;
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    .header-burger-menu {
+        display: none;
+    }
+
+    .header-menu-list {
+        display: flex;
+        margin-right: 50px;
+        gap: 24px;
+    }
+
+    .header-soc-list {
+        display: flex;
+        gap: 14px;
+    }
+
+    /*=======================*/
 
     .hero {
         padding-bottom: 40px;
@@ -1526,6 +1570,17 @@ letter-spacing: -0.02em;
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    .header-logo {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .header-menu-list {
+        margin-right: 90px;
+    }
+
+
 
     .hero-container {
         padding: 380px 40px 40px 40px;
