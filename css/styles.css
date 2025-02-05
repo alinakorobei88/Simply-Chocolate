@@ -980,21 +980,28 @@ color: #FAFAFA;
 
 .footer {
     background-color: #1E1823;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /*padding-top: 50px;
+    padding-bottom: 50px;*/
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .footer-top {
     display: flex;
-    padding-bottom: 50px;
+    flex-direction: column;
+    /*padding-bottom: 50px;*/
+    padding-bottom: 32px;
     border-bottom: 2px solid #4C4C4C;
+    gap: 32px ;   /*mobile-version*/
 }
 
 .footer-text {
     color: #FFFFFF;
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-size: 24px;
     font-weight: 500;
-    line-height: 1.21;
+    /*line-height: 1.21;*/
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-align: left;
     margin-right: auto;
@@ -1003,15 +1010,22 @@ color: #FAFAFA;
 
 .footer-text-orange {
     color: #FD9222;
-    font-size: 28px;
+    /*font-size: 28px;*/
+    font-size: 24px;
     font-weight: 500;
-    line-height: 1.21;
+    /*line-height: 1.21;*/
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-align: left;
 }
 
+.footer-contacts {
+    order: 2;  /*mobile-version*/
+}
+
 .footer-soc {
     margin-right: 50px;
+    order: 3; /*mobile-version*/
 }
 
 .footer-subtext {
@@ -1061,15 +1075,18 @@ color: #FAFAFA;
 .footer-bottom {
     margin-top: 24px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: space-between;*/
 }
 
 .footer-navigation {
 }
 .footer-navigation-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column; /*mobile-version*/
+    /*gap: 24px;*/
+    gap: 18px;
 }
 .footer-navigation-item {
 }
@@ -1085,13 +1102,18 @@ letter-spacing: -0.02em;
 .footer-form {
     display: flex;
     gap: 8px;
+    margin-top: 32px; /*mobile-version*/
 }
 
 .footer-input {
-    width: 313px;
-    height: 52px;
-    padding-left: 24px;
-    padding-right: 24px;
+    /*width: 313px;
+    height: 52px;*/
+    width: 207px;
+    height: 45px;
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 30px;
     border: 1.5px solid #FFFFFF26;
     background-color: transparent;
@@ -1108,8 +1130,10 @@ letter-spacing: -0.02em;
 }
 
 .footer-btn {
-    width: 137px;
-    height: 52px;
+    /*width: 137px;
+    height: 52px;*/
+    width: 120px;
+    height: 45px;
     border-radius: 100px;
     background-color: #FD9222;
     border: none;
