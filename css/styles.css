@@ -137,6 +137,12 @@ img {
     left: 0;
     background-color: #1E1823;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 .mob-menu-close {
